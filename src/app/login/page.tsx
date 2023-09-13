@@ -1,5 +1,4 @@
 import React from "react";
-import { RegisterLink, LoginLink } from "@kinde-oss/kinde-auth-nextjs/server";
 
 const Page = () => {
   return (
@@ -25,18 +24,15 @@ const Page = () => {
           <span className="text-4xl">Autentication</span>
         </div>
         <div>
-          <RegisterLink>
-            <button className="w-full p-3 bg-[#000] border border-black text-white rounded-full">
-              Sign Up
-            </button>
-          </RegisterLink>
+          <button className="w-full p-3 bg-[#000] border border-black text-white rounded-full">
+            Sign Up
+          </button>
 
           <hr className="border-[#e4e4e4] my-5" />
-          <LoginLink>
-            <button className="w-full p-3 border border-[#000] font-[600] rounded-full">
-              Log In
-            </button>
-          </LoginLink>
+
+          <button className="w-full p-3 border border-[#000] font-[600] rounded-full">
+            Log In
+          </button>
         </div>
       </div>
     </div>
